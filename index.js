@@ -22,7 +22,7 @@ const PORT = process.env.PORT || 5000;
 // MongoDB Connection
 // ==============================
 
-connectToMongoDB(process.env.MONGO_URI);
+connectToMongoDB(process.env.MONGODB_URI);
 
 
 // ==============================
